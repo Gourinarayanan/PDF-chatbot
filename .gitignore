@@ -1,0 +1,20 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables containing secrets
+.env
+.env.*
+
+# Local data & vectorstore indexes
+data/*
+!data/.gitkeep
+vectorstore/*
+!vectorstore/.gitkeep
